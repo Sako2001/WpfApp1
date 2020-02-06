@@ -1,0 +1,14 @@
+﻿<Window x:Class="WpfApp1.NewFolder1.Page_2"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:WpfApp1.NewFolder1"
+        mc:Ignorable="d"
+        Title="Page_2" Height="450" Width="800">
+    <Grid>
+        <Button Content="Переход 1" Click="ButtonPage1_OnClick" Margin="250,166,0,0" VerticalAlignment="Top" HorizontalAlignment="Left" Width="302"/>
+        <Button Content="Переход 2" Click="ButtonPage2_OnClick" Margin="250,202,0,0" VerticalAlignment="Top" HorizontalAlignment="Left" Width="302"/>
+        <Button Content="Переход 3" Click="ButtonPage3_OnClick" HorizontalAlignment="Left" Margin="250,238,0,0" VerticalAlignment="Top" Width="302"/>
+    </Grid>
+</Window>
